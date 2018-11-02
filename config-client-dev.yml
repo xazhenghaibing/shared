@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: 8771
 spring:
   application:
     name: config-client
@@ -7,4 +7,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://peer1:8763/eureka/
-foo: foo version 1002
+foo: foo version 100000
